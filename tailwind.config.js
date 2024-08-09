@@ -7,8 +7,8 @@ module.exports = {
         primary:'#1b434d'
       },
       fontFamily:{
-        'displat':['poppins', 'sans-serif'],
-        'body':['inter', 'sans-serif']
+        'display': ['poppins', 'sans-serif'],
+        'body': ['inter', 'sans-serif']
       }
     },
   },
