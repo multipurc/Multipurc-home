@@ -5,10 +5,6 @@ module.exports = {
     extend: {
       colors:{
         primary:'#1b434d'
-      },
-      fontFamily:{
-        'displat':['poppins', 'sans-serif'],
-        'body':['inter', 'sans-serif']
       }
     },
   },
