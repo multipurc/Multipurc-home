@@ -742,6 +742,10 @@ h1, h2, h3{
   grid-row-end: 4;
 }
 
+.row-end-5{
+  grid-row-end: 5;
+}
+
 .row-end-6{
   grid-row-end: 6;
 }
@@ -799,6 +803,10 @@ h1, h2, h3{
   margin-top: 5rem;
 }
 
+.mt-3{
+  margin-top: 0.75rem;
+}
+
 .mt-4{
   margin-top: 1rem;
 }
@@ -849,10 +857,6 @@ h1, h2, h3{
 
 .max-h-12{
   max-height: 3rem;
-}
-
-.max-h-40{
-  max-height: 10rem;
 }
 
 .min-h-16{
@@ -916,12 +920,8 @@ h1, h2, h3{
   max-width: 56rem;
 }
 
-.max-w-40{
-  max-width: 10rem;
-}
-
-.max-w-60{
-  max-width: 15rem;
+.max-w-\[600px\]{
+  max-width: 600px;
 }
 
 .flex-1{
@@ -1096,6 +1096,11 @@ h1, h2, h3{
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
+.border-multipurc-primary{
+  --tw-border-opacity: 1;
+  border-color: rgb(27 67 77 / var(--tw-border-opacity));
+}
+
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
@@ -1104,16 +1109,6 @@ h1, h2, h3{
 .border-yellow-300{
   --tw-border-opacity: 1;
   border-color: rgb(253 224 71 / var(--tw-border-opacity));
-}
-
-.border-yellow-600{
-  --tw-border-opacity: 1;
-  border-color: rgb(202 138 4 / var(--tw-border-opacity));
-}
-
-.border-multipurc-primary{
-  --tw-border-opacity: 1;
-  border-color: rgb(27 67 77 / var(--tw-border-opacity));
 }
 
 .border-opacity-30{
@@ -1163,11 +1158,6 @@ h1, h2, h3{
 .bg-yellow-50{
   --tw-bg-opacity: 1;
   background-color: rgb(254 252 232 / var(--tw-bg-opacity));
-}
-
-.bg-multipurc-primary{
-  --tw-bg-opacity: 1;
-  background-color: rgb(27 67 77 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b{
@@ -1259,6 +1249,10 @@ h1, h2, h3{
   padding-bottom: 1rem;
 }
 
+.pb-10{
+  padding-bottom: 2.5rem;
+}
+
 .pb-16{
   padding-bottom: 4rem;
 }
@@ -1271,24 +1265,36 @@ h1, h2, h3{
   padding-left: 3rem;
 }
 
+.pl-3{
+  padding-left: 0.75rem;
+}
+
+.pl-\[250px\]{
+  padding-left: 250px;
+}
+
+.pr-20{
+  padding-right: 5rem;
+}
+
+.pr-5{
+  padding-right: 1.25rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
+}
+
 .pt-12{
   padding-top: 3rem;
 }
 
+.pt-3{
+  padding-top: 0.75rem;
+}
+
 .pt-6{
   padding-top: 1.5rem;
-}
-
-.pr-2{
-  padding-right: 0.5rem;
-}
-
-.pr-11{
-  padding-right: 2.75rem;
-}
-
-.pr-40{
-  padding-right: 10rem;
 }
 
 .text-center{
@@ -1548,11 +1554,6 @@ h1, h2, h3{
   .sm\:text-6xl{
     font-size: 3.75rem;
     line-height: 1;
-  }
-
-  .sm\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .sm\:font-semibold{
